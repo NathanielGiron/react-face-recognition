@@ -1,8 +1,10 @@
 import React from 'react';
 
-const FaceRecognition = () => {
+const FaceRecognition = ({ imageUrl }) => {
   return(
-    <div>FaceRecognition</div>
+    <div className='text-center pt-4'>
+      <img src={imageUrl} alt='' width={500} />
+    </div>
   );
 }
 
