@@ -7,7 +7,7 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
         <span className="navbar-brand">Face Recognition</span>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <span onClick={() => onRouteChange('signin')} className="btn text-white">Sign Out</span>
+            <span onClick={() => onRouteChange('signout')} className="btn text-white">Sign Out</span>
           </li>
         </ul>
       </nav>
